@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+  font-family: "Open Sans", sans-serif;
+  background-color: #f9fafc;
+}
+
+@media only screen and (max-width: 480px) {
+  header {
+    font-weight: bold;
+  }
+  .container {
+    display: inline;
+    padding: 25px;
+  }
+  ul {
+     display: inline;
+  }
+  .nav-item {
+    text-decoration: none;
+    display: inline;
+    text-align: left;
+  }
+  a {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+  }
+  h4 {
+    font-size: 25px;
+  }
+  .paragraph {
+    text-align: left;
+    border-left-style: solid;
+    border-color: #69696a;
+    padding-left: 20px;
+  }
+  .dot, .dot1,.dot2 {
+    display: none;
+  }
+  .scroll {
+    background-color: #000;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+  .hire {
+    background-color: #000;
+    border-radius: 25px;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+  }
+}
